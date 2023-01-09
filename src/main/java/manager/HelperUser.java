@@ -2,6 +2,7 @@ package manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class HelperUser extends HelperBase {
     public HelperUser(WebDriver wd) {
@@ -21,6 +22,14 @@ public class HelperUser extends HelperBase {
 
     public void submitLogin() {
         click(By.xpath("//button[starts-with(text(),'Login')]"));
+    }
+    public WebElement findElementforNegativTest(By locator) {
+
+        WebElement element = wd.findElement(locator);
+        if (!element.equals(null)) {
+            return element;
+        } else return null;
+
     }
 
 }
