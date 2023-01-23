@@ -1,5 +1,6 @@
 package manager;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,6 +24,7 @@ public class HelperBase {
 
     public void click(By locator) {
         wd.findElement(locator).click();
+
     }
     public void pause(int time){
         try {
@@ -30,6 +32,20 @@ public class HelperBase {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+    public boolean isElementPresent(By locator){
+        return wd.findElements(locator).size()>0;
+    }
+    public boolean isErrorMessageDisplayed(String massege){
+        Alert alert = wd.switchTo().alert();
+        String text = alert.getText().trim();
+
+        //click ok
+        alert.accept();
+        //click cansel
+        //alert.dismiss();
+        //alert.sendKeys("hello");
+        return text.equals(massege);
     }
 
 }

@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 
 public class HelperUser extends HelperBase {
-    public boolean isErrorMessageDisplayed(String massege){
+  /*  public boolean isErrorMessageDisplayed(String massege){
         Alert alert = wd.switchTo().alert();
         String text = alert.getText();
 
@@ -20,7 +20,7 @@ public class HelperUser extends HelperBase {
         //alert.sendKeys("hello");
         return text.equals(massege);
     }
-
+*/
     public HelperUser(WebDriver wd) {
         super(wd);
     }
@@ -37,13 +37,10 @@ public class HelperUser extends HelperBase {
     }
 
     public void submitLogin() {
+
         click(By.xpath("//button[@name='login']"));
     }
-    public Boolean findElementforNegativTest(By locator) {
 
-       return false;
-
-    }
 
     public boolean isLogged() {
         List<WebElement> list = wd.findElements(By.xpath("//button[text()='Sign Out']"));
@@ -63,6 +60,6 @@ public class HelperUser extends HelperBase {
         openLoginRegistrationForm();
         fillLoginRegistrationForm(user.getEmail(), user.getPassword());
         submitLogin();
-
     }
+
 }
