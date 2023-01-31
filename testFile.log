@@ -1,0 +1,80 @@
+20:54:26.352  INFO  manager.ApplicationManager - All test start in Chrome Browser
+20:54:27.183  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+20:54:27.224  INFO  tests.TestBase - The name of starts method --->loginSuccess
+20:54:32.293  INFO  tests.TestBase - Login with valid data: email:benb@gmail.com password:Beny$123456 
+20:54:33.948  INFO  tests.TestBase - Test success
+20:57:16.875  INFO  manager.ApplicationManager - All test start in Chrome Browser
+20:57:17.717  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+20:57:17.770  INFO  tests.TestBase - The name of starts method --->loginSuccess
+20:57:22.846  INFO  tests.TestBase - Login with valid data: email:'benb@gmail.com' password:'Beny$123456' 
+20:57:24.532  INFO  tests.TestBase - Test success
+16:07:04.877  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:07:09.704  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/
+16:07:09.772  INFO  tests.TestBase - The name of starts method --->loginSuccess
+16:07:14.831  INFO  tests.TestBase - Login with valid data: email:'benb@gmail.com' password:'Beny$123456' 
+16:07:17.709  INFO  tests.TestBase - The name of starts method --->loginSuccess2
+16:11:48.470  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:11:49.468  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+16:11:49.513  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongPhone
+16:12:14.694  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:12:15.583  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+16:12:15.702  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongPhone
+16:12:38.975  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:12:39.937  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+16:12:39.979  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+16:12:48.725  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessRequiredFields
+16:12:50.094  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongMail
+16:12:51.347  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongPhone
+16:12:52.562  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutAddress
+16:12:53.299  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutLastName
+16:12:53.521  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutName
+16:14:27.043  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:14:27.949  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+16:14:28.019  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutLastName
+16:15:16.031  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:15:16.878  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+16:15:16.914  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+16:15:25.767  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessRequiredFields
+16:15:27.223  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongMail
+16:15:28.424  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongPhone
+16:15:29.722  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutAddress
+16:15:30.497  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutLastName
+16:15:35.782  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutName
+16:18:09.113  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:18:10.061  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+16:18:10.105  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+16:18:34.171  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessRequiredFields
+16:18:50.686  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongMail
+16:19:07.054  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongPhone
+16:19:23.402  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutAddress
+16:19:39.091  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutLastName
+16:19:50.314  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutName
+16:22:48.091  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:22:48.966  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+16:22:49.032  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+16:23:04.150  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessRequiredFields
+16:23:10.883  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongMail
+16:23:17.309  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongPhone
+16:23:23.723  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutAddress
+16:23:29.424  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutLastName
+16:23:36.615  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutName
+16:48:29.906  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:48:33.481  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+16:48:33.526  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+16:48:51.017  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessRequiredFields
+16:48:58.346  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongMail
+16:49:04.879  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongPhone
+16:49:11.337  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutAddress
+16:49:17.229  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutLastName
+16:49:23.128  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutName
+17:26:01.434  INFO  manager.ApplicationManager - All test start in Chrome Browser
+17:26:02.368  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+17:26:02.429  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+11:39:11.107  INFO  manager.ApplicationManager - All test start in Chrome Browser
+11:39:14.832  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+11:39:14.881  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessRequiredFields
+11:40:46.890  INFO  manager.ApplicationManager - All test start in Chrome Browser
+11:40:50.421  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+11:40:50.459  INFO  tests.TestBase - The name of starts method --->loginSuccess
+11:40:55.497  INFO  tests.TestBase - Login with valid data: email:'benb@gmail.com' password:'Beny$123456' 
+11:40:59.060  INFO  tests.TestBase - Test success

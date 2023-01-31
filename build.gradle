@@ -17,6 +17,7 @@ dependencies {
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.16'
     implementation 'org.testng:testng:7.5'
     implementation 'org.seleniumhq.selenium:selenium-java:4.7.1'
+    implementation 'ch.qos.logback:logback-classic:1.2.8'
 
 }
 

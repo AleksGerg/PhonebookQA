@@ -1,0 +1,27 @@
+14:57:35.989  INFO  manager.ApplicationManager - All test start in Chrome Browser
+14:57:37.921  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+14:57:38.021  INFO  tests.TestBase - The name of starts method --->removeOneContactSuccess
+14:57:38.024  INFO  manager.ListenerWD - Before find elementsBy.cssSelector: .contact-item_card__2SOIM
+14:57:43.053  INFO  manager.ListenerWD - After find elementBy.cssSelector: .contact-item_card__2SOIM
+14:57:43.057  INFO  manager.ListenerWD - List size is-->0
+14:57:43.057  INFO  manager.HelperContact - Number of contacts before is 0
+14:57:43.059  INFO  manager.ListenerWD - Befor find elementBy.cssSelector: .contact-item_card__2SOIM h3
+14:57:48.098  INFO  manager.ListenerWD - Have a 'problem'
+14:57:48.099  INFO  manager.ListenerWD - ***************************************
+14:57:48.100  INFO  manager.ListenerWD - Method methodfindElement
+14:57:48.100  INFO  manager.ListenerWD - ***************************************
+14:57:48.100  INFO  manager.ListenerWD - ***************************************
+14:57:48.104  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".contact-item_card__2SOIM h3"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ccf3adf9b0a99aae2f0858c027d88d17, findElement {using=css selector, value=.contact-item_card__2SOIM h3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57176/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ccf3adf9b0a99aae2f0858c027d88d17
+14:57:48.105  INFO  manager.ListenerWD - ***************************************
+14:57:48.105  INFO  manager.ListenerWD - ***************************************
+14:57:48.106  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (ccf3adf9b0a99aae2f0858c027d88d17)
+14:57:48.106  INFO  manager.ListenerWD - ***************************************
+14:57:48.122  INFO  manager.ListenerWD - Screen with error is--->src/test/screenshots/screen-1858.png

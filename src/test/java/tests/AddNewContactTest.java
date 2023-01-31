@@ -30,12 +30,13 @@ public class AddNewContactTest extends TestBase{
                 .address("Netanya")
                 .description("Friend")
                 .build();
+        logger.info("Test start with data: "+contacts.toString());
         app.getHelperContact().openAddForm();
         app.getHelperContact().fillNewContactForm(contacts);
         app.getHelperContact().clickBySave();
         Assert.assertTrue(app.getHelperContact().isContactAddedByName(contacts.getName()));
         Assert.assertTrue(app.getHelperContact().isContactAddedByPhone(contacts.getPhone()));
-        //Assert.assertTrue(app.getHelperContact().isContactAddedByEmail(contacts.getEmail()));
+        Assert.assertTrue(app.getHelperContact().isContactAddedByEmail(contacts.getEmail()));
 
 
     }
@@ -101,7 +102,7 @@ public class AddNewContactTest extends TestBase{
         Assert.assertTrue(app.getHelperContact().isContactSaved());
 
     }
-    @Test(enabled = false)
+    @Test
     public void addNewContactWithWrongPhone(){
         Random random = new Random();
         int i = random.nextInt(1000)+1000;
@@ -119,20 +120,21 @@ public class AddNewContactTest extends TestBase{
        // Assert.assertTrue(app.);
 
     }
-    @Test(enabled = false)
+    @Test
     public void addNewContactWithWrongMail() {
-        Random random = new Random();
-        int i = random.nextInt(1000) + 1000;
+
         Contacts contacts = Contacts.builder()
                 .name("Tapuah")
                 .lastName("Adoma")
                 .phone("0562365895")
                 .email("tapAgmail.com")
                 .address("Netanya")
+                .description("Wrong email")
                 .build();
         app.getHelperContact().openAddForm();
         app.getHelperContact().fillNewContactForm(contacts);
         app.getHelperContact().clickBySave();
+        Assert.assertTrue(app.getHelperContact().isAddPageStillDisplayed());
         Assert.assertTrue(app.getHelperContact().getTextfromAlert("Email not valid: must be a well-formed email address"));
 
     }

@@ -1,0 +1,113 @@
+19:10:01.967  INFO  manager.ApplicationManager - All test start in Chrome Browser
+19:10:04.000  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+19:10:04.056  INFO  tests.TestBase - The name of starts method --->loginSuccessModel
+19:10:04.059  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+19:10:09.083  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+19:10:09.086  INFO  manager.ListenerWD - List size is-->0
+19:10:09.099  INFO  tests.TestBase - Test start with user: User(email=benb@gmail.com, password=Beny$123456)
+19:10:09.213  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+19:10:09.297  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+19:10:09.491  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+19:10:09.559  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+19:10:09.612  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=1]
+19:10:09.661  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=1]
+19:10:09.854  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=2]
+19:10:09.887  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+19:10:10.065  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[@name='login']
+19:10:10.094  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+19:10:11.150  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[@name='login']
+19:10:16.191  INFO  manager.ListenerWD - Have a 'problem'
+19:10:16.192  INFO  manager.ListenerWD - ***************************************
+19:10:16.192  INFO  manager.ListenerWD - Method methodfindElement
+19:10:16.192  INFO  manager.ListenerWD - ***************************************
+19:10:16.192  INFO  manager.ListenerWD - ***************************************
+19:10:16.196  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@name='login']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54fae1510df82abd706060365e0f6b75, findElement {using=xpath, value=//button[@name='login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52518/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54fae1510df82abd706060365e0f6b75
+19:10:16.197  INFO  manager.ListenerWD - ***************************************
+19:10:16.197  INFO  manager.ListenerWD - ***************************************
+19:10:16.197  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (54fae1510df82abd706060365e0f6b75)
+19:10:16.197  INFO  manager.ListenerWD - ***************************************
+19:10:16.204  INFO  manager.ListenerWD - Screen with error is--->src/test/screenshots/screen-1612.png
+19:10:16.842  INFO  tests.TestBase - The name of starts method --->loginSuccessModel
+19:10:16.843  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+19:10:16.907  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+19:10:16.911  INFO  manager.ListenerWD - List size is-->1
+19:10:16.911  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[text()='Sign Out']
+19:10:16.959  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+19:10:17.066  INFO  tests.TestBase - I need logout
+19:10:17.067  INFO  tests.TestBase - Test start with user: User(email=ili@gmail.com, password=IliB$123456)
+19:10:17.067  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+19:10:17.100  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+19:10:17.167  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+19:10:17.227  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+19:10:17.337  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=1]
+19:10:17.378  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=1]
+19:10:17.755  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=2]
+19:10:17.783  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+19:10:18.092  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[@name='login']
+19:10:18.119  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+19:10:19.191  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[@name='login']
+19:10:24.232  INFO  manager.ListenerWD - Have a 'problem'
+19:10:24.232  INFO  manager.ListenerWD - ***************************************
+19:10:24.232  INFO  manager.ListenerWD - Method methodfindElement
+19:10:24.232  INFO  manager.ListenerWD - ***************************************
+19:10:24.233  INFO  manager.ListenerWD - ***************************************
+19:10:24.233  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@name='login']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54fae1510df82abd706060365e0f6b75, findElement {using=xpath, value=//button[@name='login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52518/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54fae1510df82abd706060365e0f6b75
+19:10:24.233  INFO  manager.ListenerWD - ***************************************
+19:10:24.233  INFO  manager.ListenerWD - ***************************************
+19:10:24.234  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (54fae1510df82abd706060365e0f6b75)
+19:10:24.234  INFO  manager.ListenerWD - ***************************************
+19:10:24.234  INFO  manager.ListenerWD - Screen with error is--->src/test/screenshots/screen-1128.png
+19:10:24.695  INFO  tests.TestBase - The name of starts method --->loginSuccessModel
+19:10:24.696  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+19:10:24.718  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+19:10:24.719  INFO  manager.ListenerWD - List size is-->1
+19:10:24.719  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[text()='Sign Out']
+19:10:24.737  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+19:10:24.785  INFO  tests.TestBase - I need logout
+19:10:24.787  INFO  tests.TestBase - Test start with user: User(email=benb@gmail.com, password=Beny$123456)
+19:10:24.788  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+19:10:24.809  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+19:10:24.849  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+19:10:24.867  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+19:10:24.897  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=1]
+19:10:24.917  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=1]
+19:10:25.076  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=2]
+19:10:25.096  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+19:10:25.254  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[@name='login']
+19:10:25.276  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+19:10:26.325  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[@name='login']
+19:10:31.370  INFO  manager.ListenerWD - Have a 'problem'
+19:10:31.371  INFO  manager.ListenerWD - ***************************************
+19:10:31.371  INFO  manager.ListenerWD - Method methodfindElement
+19:10:31.371  INFO  manager.ListenerWD - ***************************************
+19:10:31.371  INFO  manager.ListenerWD - ***************************************
+19:10:31.371  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@name='login']"}
+  (Session info: chrome=109.0.5414.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54fae1510df82abd706060365e0f6b75, findElement {using=xpath, value=//button[@name='login']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.119, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52518/devtoo..., se:cdpVersion: 109.0.5414.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54fae1510df82abd706060365e0f6b75
+19:10:31.372  INFO  manager.ListenerWD - ***************************************
+19:10:31.372  INFO  manager.ListenerWD - ***************************************
+19:10:31.372  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (54fae1510df82abd706060365e0f6b75)
+19:10:31.373  INFO  manager.ListenerWD - ***************************************
+19:10:31.373  INFO  manager.ListenerWD - Screen with error is--->src/test/screenshots/screen-1661.png

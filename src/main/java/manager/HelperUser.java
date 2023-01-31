@@ -27,7 +27,7 @@ public class HelperUser extends HelperBase {
 
     public void openLoginRegistrationForm() {
 
-        click(By.xpath("//a[text()='LOGIN']"));
+        click(By.xpath("//a[@href='/login']"));//LOGIN
     }
 
     public void fillLoginRegistrationForm(String email, String password) {
@@ -37,8 +37,9 @@ public class HelperUser extends HelperBase {
     }
 
     public void submitLogin() {
-
-        click(By.xpath("//button[@name='login']"));
+        click(By.cssSelector("a[href='/login']"));
+       // click(By.xpath("//button[@name='login']"));
+       // pause(1000);
     }
 
 

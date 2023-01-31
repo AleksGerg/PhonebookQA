@@ -1,0 +1,59 @@
+18:33:44.930  INFO  manager.ApplicationManager - All test start in Chrome Browser
+18:33:46.889  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+18:33:46.940  INFO  tests.TestBase - The name of starts method --->loginSuccess
+18:33:46.944  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+18:33:51.980  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+18:33:51.985  INFO  manager.ListenerWD - List size is-->0
+18:33:51.996  INFO  tests.TestBase - Login with valid data: email: benb@gmail.com password: Beny$123456
+18:33:51.997  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+18:33:52.060  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+18:33:52.160  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=1]
+18:33:52.233  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=1]
+18:33:52.522  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=2]
+18:33:52.564  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+18:33:52.762  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[@name='login']
+18:33:52.795  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+18:33:52.845  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+18:33:54.005  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+18:33:54.006  INFO  manager.ListenerWD - List size is-->1
+18:33:54.012  INFO  tests.TestBase - Test success
+18:33:54.015  INFO  tests.TestBase - The name of starts method --->loginSuccess
+18:33:54.016  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+18:33:54.075  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+18:33:54.076  INFO  manager.ListenerWD - List size is-->1
+18:33:54.076  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[text()='Sign Out']
+18:33:54.120  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+18:33:54.181  INFO  tests.TestBase - I need logout
+18:33:54.182  INFO  tests.TestBase - Login with valid data: email: ili@gmail.com password: IliB$123456
+18:33:54.183  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+18:33:54.208  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+18:33:54.260  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=1]
+18:33:54.285  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=1]
+18:33:54.453  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=2]
+18:33:54.480  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+18:33:54.654  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[@name='login']
+18:33:54.687  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+18:33:54.754  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+18:33:55.086  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+18:33:55.087  INFO  manager.ListenerWD - List size is-->1
+18:33:55.087  INFO  tests.TestBase - Test success
+18:33:55.088  INFO  tests.TestBase - The name of starts method --->loginSuccess
+18:33:55.089  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+18:33:55.115  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+18:33:55.115  INFO  manager.ListenerWD - List size is-->1
+18:33:55.115  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[text()='Sign Out']
+18:33:55.145  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+18:33:55.204  INFO  tests.TestBase - I need logout
+18:33:55.206  INFO  tests.TestBase - Login with valid data: email: benb@gmail.com password: Beny$123456
+18:33:55.206  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+18:33:55.233  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+18:33:55.286  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=1]
+18:33:55.305  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=1]
+18:33:55.487  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=2]
+18:33:55.514  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+18:33:55.690  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[@name='login']
+18:33:55.715  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+18:33:55.765  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+18:33:56.158  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+18:33:56.158  INFO  manager.ListenerWD - List size is-->1
+18:33:56.158  INFO  tests.TestBase - Test success
