@@ -18,8 +18,8 @@ public class RemoveContactTest extends TestBase{
         int result = app.getHelperContact().removeOneContact();
         Assert.assertEquals(result,1);
     }
-    @Test
+  /*  @Test
     public void removeAllContacts(){
       //  app.getHelperContact().removeAllContacts();
-    }
+    }*/
 }

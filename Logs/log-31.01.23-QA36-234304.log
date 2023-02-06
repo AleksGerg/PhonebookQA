@@ -1,0 +1,35 @@
+23:43:07.719  INFO  manager.ApplicationManager - All test start in Chrome Browser
+23:43:09.854  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+23:43:09.899  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+23:43:09.902  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+23:43:14.943  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+23:43:14.947  INFO  manager.ListenerWD - List size is-->0
+23:43:14.950  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+23:43:14.986  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+23:43:15.087  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=1]
+23:43:15.189  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=1]
+23:43:15.505  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=2]
+23:43:15.537  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+23:43:15.693  INFO  manager.ListenerWD - Befor find elementBy.cssSelector: a[href='/login']
+23:43:15.721  INFO  manager.ListenerWD - After find elementBy.cssSelector: a[href='/login']
+23:43:15.800  INFO  tests.TestBase - Test start with data: Contacts(name=Melafifon1377, lastName=Green, phone=05613772569, email=melG1377@gmail.com, address=Netanya, description=Friend)
+23:43:15.801  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/add']
+23:43:20.818  INFO  manager.ListenerWD - Have a 'problem'
+23:43:20.818  INFO  manager.ListenerWD - ***************************************
+23:43:20.819  INFO  manager.ListenerWD - Method methodfindElement
+23:43:20.819  INFO  manager.ListenerWD - ***************************************
+23:43:20.819  INFO  manager.ListenerWD - ***************************************
+23:43:20.821  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/add']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b54576d667d42d5dde1a6121ed15b159, findElement {using=xpath, value=//a[@href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50032/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b54576d667d42d5dde1a6121ed15b159
+23:43:20.822  INFO  manager.ListenerWD - ***************************************
+23:43:20.822  INFO  manager.ListenerWD - ***************************************
+23:43:20.823  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (b54576d667d42d5dde1a6121ed15b159)
+23:43:20.823  INFO  manager.ListenerWD - ***************************************
+23:43:20.823  INFO  manager.ListenerWD - Screen with error is--->src/test/screenshots/screen-1354.png

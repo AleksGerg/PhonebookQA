@@ -1,0 +1,59 @@
+16:45:49.265  INFO  manager.ApplicationManager - All test start in Chrome Browser
+16:45:51.197  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+16:45:51.240  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+16:45:51.243  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+16:45:56.296  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+16:45:56.300  INFO  manager.ListenerWD - List size is-->0
+16:45:56.806  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/login']
+16:45:56.838  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+16:45:57.410  INFO  manager.ListenerWD - Before find elementBy.name: email
+16:45:57.440  INFO  manager.ListenerWD - After find elementBy.name: email
+16:45:58.607  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[position()=2]
+16:45:58.633  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+16:46:00.289  INFO  manager.ListenerWD - Before find elementBy.xpath: //button[@name='login']
+16:46:00.319  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+16:46:00.393  INFO  tests.TestBase - Test start with data: Contacts(name=Melafifon1015, lastName=Green, phone=05610152569, email=melG1015@gmail.com, address=Netanya, description=All fields)
+16:46:00.393  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/add']
+16:46:01.517  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/add']
+16:46:01.569  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Name']
+16:46:01.603  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+16:46:02.684  INFO  manager.ListenerWD - Have a 'problem'
+16:46:02.685  INFO  manager.ListenerWD - ***************************************
+16:46:02.685  INFO  manager.ListenerWD - Method methodsendKeys
+16:46:02.685  INFO  manager.ListenerWD - ***************************************
+16:46:02.685  INFO  manager.ListenerWD - ***************************************
+16:46:02.688  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5bd11a3b126c5e34e46f3bbca822e09, sendKeysToElement {id=60ee7589-9784-48fa-89a2-94ccfbb3b8bb, value=[Ljava.lang.CharSequence;@68b366e2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49230}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49230/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (d5bd11a3b126c5e34e46f3bbca822e09)] -> xpath: //input[@placeholder='Name']]
+Session ID: d5bd11a3b126c5e34e46f3bbca822e09
+16:46:02.689  INFO  manager.ListenerWD - ***************************************
+16:46:02.689  INFO  manager.ListenerWD - ***************************************
+16:46:02.690  INFO  manager.ListenerWD - Object target[[ChromeDriver: chrome on WINDOWS (d5bd11a3b126c5e34e46f3bbca822e09)] -> xpath: //input[@placeholder='Name']]
+16:46:02.690  INFO  manager.ListenerWD - ***************************************
+16:46:02.703  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessRequiredFields
+16:46:02.704  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+16:46:02.725  INFO  manager.ListenerWD - Have a 'problem'
+16:46:02.725  INFO  manager.ListenerWD - ***************************************
+16:46:02.725  INFO  manager.ListenerWD - Method methodfindElements
+16:46:02.725  INFO  manager.ListenerWD - ***************************************
+16:46:02.725  INFO  manager.ListenerWD - ***************************************
+16:46:02.725  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5bd11a3b126c5e34e46f3bbca822e09, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49230}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49230/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d5bd11a3b126c5e34e46f3bbca822e09
+16:46:02.726  INFO  manager.ListenerWD - ***************************************
+16:46:02.726  INFO  manager.ListenerWD - ***************************************
+16:46:02.726  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (d5bd11a3b126c5e34e46f3bbca822e09)
+16:46:02.726  INFO  manager.ListenerWD - ***************************************
+16:46:02.727  INFO  manager.ListenerWD - Screen with error is--->src/test/screenshots/screen-131.png

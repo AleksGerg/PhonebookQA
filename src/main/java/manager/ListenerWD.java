@@ -33,7 +33,9 @@ public class ListenerWD implements WebDriverListener {
         logger.info("Object target"+target.toString());
         logger.info("***************************************");
         WebDriver wd = (ChromeDriver)target;
-        int i = new Random().nextInt(1000)+1000;
+       // WebDriver wd = (WebDriver) new ChromeDriver();
+
+        int i = new Random().nextInt(1000);
         String link = "src/test/screenshots/screen-"+i+".png";
         logger.info("Screen with error is--->"+link);
 
@@ -48,7 +50,7 @@ public class ListenerWD implements WebDriverListener {
     @Override
     public void beforeFindElement(WebDriver driver, By locator) {
         WebDriverListener.super.beforeFindElement(driver, locator);
-        logger.info("Befor find element"+locator);
+        logger.info("Before find element"+locator);
 
     }
 

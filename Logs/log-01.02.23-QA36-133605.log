@@ -1,0 +1,6 @@
+13:36:10.761  INFO  manager.ApplicationManager - All test start in Chrome Browser
+13:36:12.713  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+13:36:12.835  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+13:37:12.678  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+13:37:17.733  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+13:37:17.745  INFO  manager.ListenerWD - List size is-->0

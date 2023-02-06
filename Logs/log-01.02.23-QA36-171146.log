@@ -1,0 +1,54 @@
+17:11:49.280  INFO  manager.ApplicationManager - All test start in Chrome Browser
+17:11:51.988  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+17:11:52.055  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+17:11:52.057  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+17:11:57.128  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+17:11:57.132  INFO  manager.ListenerWD - List size is-->0
+17:11:57.639  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/login']
+17:11:57.674  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+17:11:58.261  INFO  manager.ListenerWD - Before find elementBy.name: email
+17:11:58.293  INFO  manager.ListenerWD - After find elementBy.name: email
+17:12:00.477  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[position()=2]
+17:12:00.507  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+17:12:03.200  INFO  manager.ListenerWD - Before find elementBy.xpath: //button[@name='login']
+17:12:03.227  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+17:12:03.317  INFO  tests.TestBase - Test start with data: Contacts(name=Melafifon43, lastName=Green, phone=056432569, email=melG43@gmail.com, address=Netanya, description=All fields)
+17:12:03.317  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/add']
+17:12:04.282  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/add']
+17:12:04.341  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Name']
+17:12:04.369  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+17:12:06.555  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Last Name']
+17:12:06.609  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Last Name']
+17:12:08.811  INFO  manager.ListenerWD - Before find elementBy.cssSelector: input[placeholder='Phone']
+17:12:08.834  INFO  manager.ListenerWD - After find elementBy.cssSelector: input[placeholder='Phone']
+17:12:10.988  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='email']
+17:12:11.014  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='email']
+17:12:13.195  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Address']
+17:12:13.222  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Address']
+17:12:15.366  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='description']
+17:12:15.391  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='description']
+17:12:17.542  INFO  manager.ListenerWD - Before find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+17:12:17.570  INFO  manager.ListenerWD - After find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+17:12:17.610  INFO  manager.ListenerWD - Before find elementsBy.cssSelector: h2
+17:12:17.946  INFO  manager.ListenerWD - After find elementBy.cssSelector: h2
+17:12:17.946  INFO  manager.ListenerWD - List size is-->0
+17:12:17.957  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessRequiredFields
+17:12:17.958  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+17:12:17.975  INFO  manager.ListenerWD - Have a 'problem'
+17:12:17.976  INFO  manager.ListenerWD - ***************************************
+17:12:17.976  INFO  manager.ListenerWD - Method methodfindElements
+17:12:17.976  INFO  manager.ListenerWD - ***************************************
+17:12:17.976  INFO  manager.ListenerWD - ***************************************
+17:12:17.978  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text :  Phone not valid: Phone number must contain only digits! And length min 10, max 15!}
+  (Session info: chrome=109.0.5414.120):  Phone not valid: Phone number must contain only digits! And length min 10, max 15!
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [323717adb23b16b85492792b950aa04c, findElements {using=xpath, value=//button[text()='Sign Out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49756}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49756/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 323717adb23b16b85492792b950aa04c
+17:12:17.979  INFO  manager.ListenerWD - ***************************************
+17:12:17.979  INFO  manager.ListenerWD - ***************************************
+17:12:17.980  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (323717adb23b16b85492792b950aa04c)
+17:12:17.980  INFO  manager.ListenerWD - ***************************************
+17:12:19.014  INFO  manager.ListenerWD - Screen with error is--->src/test/screenshots/screen-561.png

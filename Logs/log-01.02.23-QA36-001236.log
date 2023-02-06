@@ -1,0 +1,27 @@
+00:12:39.825  INFO  manager.ApplicationManager - All test start in Chrome Browser
+00:12:42.122  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+00:12:42.171  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+00:12:42.174  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+00:12:47.248  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+00:12:47.252  INFO  manager.ListenerWD - List size is-->0
+00:12:47.289  INFO  tests.TestBase - Test start with data: Contacts(name=Melafifon1416, lastName=Green, phone=05614162569, email=melG1416@gmail.com, address=Netanya, description=Friend)
+00:12:47.292  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/add']
+00:12:52.357  INFO  manager.ListenerWD - Have a 'problem'
+00:12:52.358  INFO  manager.ListenerWD - ***************************************
+00:12:52.358  INFO  manager.ListenerWD - Method methodfindElement
+00:12:52.359  INFO  manager.ListenerWD - ***************************************
+00:12:52.359  INFO  manager.ListenerWD - ***************************************
+00:12:52.361  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@href='/add']"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a1aa2351bd0462651eb306021a5b06f2, findElement {using=xpath, value=//a[@href='/add']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50980}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50980/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a1aa2351bd0462651eb306021a5b06f2
+00:12:52.362  INFO  manager.ListenerWD - ***************************************
+00:12:52.362  INFO  manager.ListenerWD - ***************************************
+00:12:52.363  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (a1aa2351bd0462651eb306021a5b06f2)
+00:12:52.364  INFO  manager.ListenerWD - ***************************************
+00:12:52.364  INFO  manager.ListenerWD - Screen with error is--->src/test/screenshots/screen-1240.png

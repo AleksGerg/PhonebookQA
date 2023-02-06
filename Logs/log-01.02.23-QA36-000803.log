@@ -1,0 +1,26 @@
+00:08:06.223  INFO  manager.ApplicationManager - All test start in Chrome Browser
+00:08:07.887  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+00:08:07.945  INFO  tests.TestBase - The name of starts method --->removeAllContacts
+00:08:07.948  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+00:08:12.965  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+00:08:12.969  INFO  manager.ListenerWD - List size is-->0
+00:08:12.971  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=1]
+00:08:17.996  INFO  manager.ListenerWD - Have a 'problem'
+00:08:17.997  INFO  manager.ListenerWD - ***************************************
+00:08:17.997  INFO  manager.ListenerWD - Method methodfindElement
+00:08:17.997  INFO  manager.ListenerWD - ***************************************
+00:08:17.997  INFO  manager.ListenerWD - ***************************************
+00:08:18.000  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[position()=1]"}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5f06f0dd2c27d2a0bb813e28b0c405e, findElement {using=xpath, value=//input[position()=1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50766}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50766/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e5f06f0dd2c27d2a0bb813e28b0c405e
+00:08:18.000  INFO  manager.ListenerWD - ***************************************
+00:08:18.000  INFO  manager.ListenerWD - ***************************************
+00:08:18.001  INFO  manager.ListenerWD - Object targetChromeDriver: chrome on WINDOWS (e5f06f0dd2c27d2a0bb813e28b0c405e)
+00:08:18.001  INFO  manager.ListenerWD - ***************************************
+00:08:18.004  INFO  manager.ListenerWD - Screen with error is--->src/test/screenshots/screen-1359.png

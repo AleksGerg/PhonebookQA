@@ -1,0 +1,17 @@
+23:33:35.055  INFO  manager.ApplicationManager - All test start in Chrome Browser
+23:33:37.059  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+23:33:37.122  INFO  tests.TestBase - The name of starts method --->registrationSuccess
+23:33:37.127  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+23:33:42.197  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+23:33:42.207  INFO  manager.ListenerWD - List size is-->0
+23:33:42.214  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+23:33:42.275  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+23:33:42.419  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=1]
+23:33:42.506  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=1]
+23:33:42.802  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=2]
+23:33:42.835  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+23:33:42.989  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[starts-with(text(),'Registration')]
+23:33:43.017  INFO  manager.ListenerWD - After find elementBy.xpath: //button[starts-with(text(),'Registration')]
+23:33:43.074  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+23:33:44.225  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+23:33:44.225  INFO  manager.ListenerWD - List size is-->1

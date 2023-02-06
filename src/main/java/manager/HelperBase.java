@@ -18,7 +18,9 @@ public class HelperBase {
     public void type(By locator, String text) {
         WebElement element = wd.findElement(locator);
         element.click();
+       // pause(1000);
         element.sendKeys(Keys.CONTROL+"a");
+      //  pause(1000);
         element.sendKeys(Keys.BACK_SPACE);
 
         if(text != null){

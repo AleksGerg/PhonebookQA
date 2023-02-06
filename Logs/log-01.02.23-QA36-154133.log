@@ -1,0 +1,175 @@
+15:41:36.352  INFO  manager.ApplicationManager - All test start in Chrome Browser
+15:41:38.335  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+15:41:38.438  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+15:41:38.442  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+15:41:43.495  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+15:41:43.499  INFO  manager.ListenerWD - List size is-->0
+15:41:44.006  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/login']
+15:41:44.047  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+15:41:44.658  INFO  manager.ListenerWD - Before find elementBy.name: email
+15:41:44.693  INFO  manager.ListenerWD - After find elementBy.name: email
+15:41:45.907  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[position()=2]
+15:41:45.943  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+15:41:47.621  INFO  manager.ListenerWD - Before find elementBy.xpath: //button[@name='login']
+15:41:47.649  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+15:41:47.723  INFO  tests.TestBase - Test start with data: Contacts(name=Melafifon1523, lastName=Green, phone=05615232569, email=melG1523@gmail.com, address=Netanya, description=All fields)
+15:41:47.724  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/add']
+15:41:48.763  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/add']
+15:41:48.817  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Name']
+15:41:48.844  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+15:41:49.999  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Last Name']
+15:41:50.024  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Last Name']
+15:41:51.227  INFO  manager.ListenerWD - Before find elementBy.cssSelector: input[placeholder='Phone']
+15:41:51.286  INFO  manager.ListenerWD - After find elementBy.cssSelector: input[placeholder='Phone']
+15:41:52.529  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='email']
+15:41:52.576  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='email']
+15:41:53.758  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Address']
+15:41:53.789  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Address']
+15:41:54.970  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='description']
+15:41:55.002  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='description']
+15:41:56.180  INFO  manager.ListenerWD - Before find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:41:56.206  INFO  manager.ListenerWD - After find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:41:56.248  INFO  manager.ListenerWD - Before find elementsBy.cssSelector: h2
+15:41:57.617  INFO  manager.ListenerWD - After find elementBy.cssSelector: h2
+15:41:57.617  INFO  manager.ListenerWD - List size is-->70
+15:41:58.611  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessRequiredFields
+15:41:58.612  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+15:41:58.627  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+15:41:58.628  INFO  manager.ListenerWD - List size is-->1
+15:41:58.628  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/add']
+15:41:58.644  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/add']
+15:41:59.691  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Name']
+15:41:59.705  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+15:42:00.843  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Last Name']
+15:42:00.860  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Last Name']
+15:42:02.010  INFO  manager.ListenerWD - Before find elementBy.cssSelector: input[placeholder='Phone']
+15:42:02.025  INFO  manager.ListenerWD - After find elementBy.cssSelector: input[placeholder='Phone']
+15:42:03.155  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='email']
+15:42:03.168  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='email']
+15:42:04.298  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Address']
+15:42:04.315  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Address']
+15:42:05.436  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='description']
+15:42:05.451  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='description']
+15:42:06.548  INFO  manager.ListenerWD - Before find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:42:06.563  INFO  manager.ListenerWD - After find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:42:06.598  INFO  manager.ListenerWD - Before find elementsBy.cssSelector: h3
+15:42:07.657  INFO  manager.ListenerWD - After find elementBy.cssSelector: h3
+15:42:07.658  INFO  manager.ListenerWD - List size is-->71
+15:42:07.734  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongMail
+15:42:07.735  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+15:42:07.748  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+15:42:07.749  INFO  manager.ListenerWD - List size is-->1
+15:42:07.749  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/add']
+15:42:07.764  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/add']
+15:42:07.813  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Name']
+15:42:07.833  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+15:42:08.971  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Last Name']
+15:42:08.985  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Last Name']
+15:42:10.135  INFO  manager.ListenerWD - Before find elementBy.cssSelector: input[placeholder='Phone']
+15:42:10.150  INFO  manager.ListenerWD - After find elementBy.cssSelector: input[placeholder='Phone']
+15:42:11.291  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='email']
+15:42:11.303  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='email']
+15:42:12.460  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Address']
+15:42:12.474  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Address']
+15:42:13.612  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='description']
+15:42:13.624  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='description']
+15:42:14.761  INFO  manager.ListenerWD - Before find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:42:14.776  INFO  manager.ListenerWD - After find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:42:14.823  INFO  manager.ListenerWD - Before find elementsBy.cssSelector: a.active[href='/add']
+15:42:14.846  INFO  manager.ListenerWD - After find elementBy.cssSelector: a.active[href='/add']
+15:42:14.846  INFO  manager.ListenerWD - List size is-->1
+15:42:14.847  INFO  tests.TestBase - The name of starts method --->addNewContactWithWrongPhone
+15:42:14.848  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+15:42:14.864  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+15:42:14.865  INFO  manager.ListenerWD - List size is-->1
+15:42:14.865  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/add']
+15:42:14.880  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/add']
+15:42:14.923  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Name']
+15:42:14.940  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+15:42:16.015  INFO  manager.ListenerWD - Have a 'problem'
+15:42:16.015  INFO  manager.ListenerWD - ***************************************
+15:42:16.016  INFO  manager.ListenerWD - Method methodsendKeys
+15:42:16.016  INFO  manager.ListenerWD - ***************************************
+15:42:16.016  INFO  manager.ListenerWD - ***************************************
+15:42:16.020  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email not valid: must be a well-formed email address}
+  (Session info: chrome=109.0.5414.120): Email not valid: must be a well-formed email address
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2e69af337b0757f5993d2f6c810854f7, sendKeysToElement {id=4ab457bd-06fb-4b42-9c59-3cc7c1f3b971, value=[Ljava.lang.CharSequence;@615efd1c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65046}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65046/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2e69af337b0757f5993d2f6c810854f7)] -> xpath: //input[@placeholder='Name']]
+Session ID: 2e69af337b0757f5993d2f6c810854f7
+15:42:16.020  INFO  manager.ListenerWD - ***************************************
+15:42:16.020  INFO  manager.ListenerWD - ***************************************
+15:42:16.021  INFO  manager.ListenerWD - Object target[[ChromeDriver: chrome on WINDOWS (2e69af337b0757f5993d2f6c810854f7)] -> xpath: //input[@placeholder='Name']]
+15:42:16.021  INFO  manager.ListenerWD - ***************************************
+15:42:16.048  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutAddress
+15:42:16.048  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+15:42:16.105  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+15:42:16.105  INFO  manager.ListenerWD - List size is-->1
+15:42:16.106  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/add']
+15:42:16.135  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/add']
+15:42:16.214  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Name']
+15:42:16.235  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+15:42:17.385  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Last Name']
+15:42:17.400  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Last Name']
+15:42:18.511  INFO  manager.ListenerWD - Before find elementBy.cssSelector: input[placeholder='Phone']
+15:42:18.525  INFO  manager.ListenerWD - After find elementBy.cssSelector: input[placeholder='Phone']
+15:42:19.647  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='email']
+15:42:19.660  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='email']
+15:42:20.789  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Address']
+15:42:20.803  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Address']
+15:42:21.882  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='description']
+15:42:21.896  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='description']
+15:42:23.031  INFO  manager.ListenerWD - Before find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:42:23.044  INFO  manager.ListenerWD - After find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:42:23.069  INFO  manager.ListenerWD - Before find elementsBy.xpath: //input[@placeholder='Name']
+15:42:23.087  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+15:42:23.087  INFO  manager.ListenerWD - List size is-->1
+15:42:23.088  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutLastName
+15:42:23.089  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+15:42:23.101  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+15:42:23.101  INFO  manager.ListenerWD - List size is-->1
+15:42:23.102  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/add']
+15:42:23.115  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/add']
+15:42:23.143  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Name']
+15:42:23.157  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+15:42:24.281  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Last Name']
+15:42:24.295  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Last Name']
+15:42:25.389  INFO  manager.ListenerWD - Before find elementBy.cssSelector: input[placeholder='Phone']
+15:42:25.402  INFO  manager.ListenerWD - After find elementBy.cssSelector: input[placeholder='Phone']
+15:42:26.563  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='email']
+15:42:26.575  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='email']
+15:42:27.702  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Address']
+15:42:27.716  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Address']
+15:42:28.859  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='description']
+15:42:28.873  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='description']
+15:42:30.006  INFO  manager.ListenerWD - Before find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:42:30.019  INFO  manager.ListenerWD - After find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:42:30.043  INFO  manager.ListenerWD - Before find elementsBy.xpath: //input[@placeholder='Name']
+15:42:30.056  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+15:42:30.057  INFO  manager.ListenerWD - List size is-->1
+15:42:30.058  INFO  tests.TestBase - The name of starts method --->addNewContactWithoutName
+15:42:30.059  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+15:42:30.070  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+15:42:30.070  INFO  manager.ListenerWD - List size is-->1
+15:42:30.070  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/add']
+15:42:30.083  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/add']
+15:42:30.109  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Name']
+15:42:30.121  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+15:42:31.211  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Last Name']
+15:42:31.226  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Last Name']
+15:42:32.331  INFO  manager.ListenerWD - Before find elementBy.cssSelector: input[placeholder='Phone']
+15:42:32.344  INFO  manager.ListenerWD - After find elementBy.cssSelector: input[placeholder='Phone']
+15:42:33.490  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='email']
+15:42:33.503  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='email']
+15:42:34.630  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Address']
+15:42:34.644  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Address']
+15:42:35.750  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='description']
+15:42:35.764  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='description']
+15:42:36.901  INFO  manager.ListenerWD - Before find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:42:36.914  INFO  manager.ListenerWD - After find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+15:42:36.940  INFO  manager.ListenerWD - Before find elementsBy.xpath: //input[@placeholder='Name']
+15:42:36.954  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+15:42:36.954  INFO  manager.ListenerWD - List size is-->1

@@ -1,0 +1,29 @@
+12:16:35.045  INFO  manager.ApplicationManager - All test start in Chrome Browser
+12:16:36.768  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+12:16:36.822  INFO  tests.TestBase - The name of starts method --->removeOneContactSuccess
+12:16:36.826  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+12:16:41.865  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+12:16:41.868  INFO  manager.ListenerWD - List size is-->0
+12:16:41.871  INFO  manager.ListenerWD - Befor find elementBy.xpath: //a[@href='/login']
+12:16:41.909  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+12:16:41.999  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=1]
+12:16:42.096  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=1]
+12:16:42.341  INFO  manager.ListenerWD - Befor find elementBy.xpath: //input[position()=2]
+12:16:42.375  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+12:16:42.529  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[@name='login']
+12:16:42.560  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+12:16:42.612  INFO  manager.ListenerWD - Before find elementsBy.cssSelector: .contact-item_card__2SOIM
+12:16:44.374  INFO  manager.ListenerWD - After find elementBy.cssSelector: .contact-item_card__2SOIM
+12:16:44.377  INFO  manager.ListenerWD - List size is-->37
+12:16:44.378  INFO  manager.HelperContact - Number of contacts before is 37
+12:16:44.379  INFO  manager.ListenerWD - Befor find elementBy.cssSelector: .contact-item_card__2SOIM h3
+12:16:44.412  INFO  manager.ListenerWD - After find elementBy.cssSelector: .contact-item_card__2SOIM h3
+12:16:44.443  INFO  manager.HelperContact - The deleted number is 05614722569
+12:16:44.443  INFO  manager.ListenerWD - Befor find elementBy.cssSelector: .contact-item_card__2SOIM
+12:16:44.464  INFO  manager.ListenerWD - After find elementBy.cssSelector: .contact-item_card__2SOIM
+12:16:44.528  INFO  manager.ListenerWD - Befor find elementBy.xpath: //button[text()='Remove']
+12:16:44.557  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Remove']
+12:16:45.601  INFO  manager.ListenerWD - Before find elementsBy.cssSelector: .contact-item_card__2SOIM
+12:16:45.865  INFO  manager.ListenerWD - After find elementBy.cssSelector: .contact-item_card__2SOIM
+12:16:45.865  INFO  manager.ListenerWD - List size is-->36
+12:16:45.866  INFO  manager.HelperContact - Number of contacts after is 37
