@@ -24,7 +24,7 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().fillLoginRegistrationForm(email, "Beny$123456");
         app.getHelperUser().submitRegistration();
        // Assert.assertTrue(app.getHelperUser().isLogged());
-        //logout
+        //logout for jenkins
     }
 
     @Test
