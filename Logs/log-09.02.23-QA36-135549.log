@@ -1,0 +1,62 @@
+13:55:52.851  INFO  manager.ApplicationManager - All test start in Chrome Browser
+13:55:55.114  INFO  manager.ApplicationManager - Current Url -->https://telranedu.web.app/home
+13:55:55.216  INFO  tests.TestBase - The name of starts method --->addNewContactSuccessAllFields
+13:55:55.219  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+13:56:00.278  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+13:56:00.281  INFO  manager.ListenerWD - List size is-->0
+13:56:00.789  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/login']
+13:56:00.826  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+13:56:01.406  INFO  manager.ListenerWD - Before find elementBy.name: email
+13:56:01.436  INFO  manager.ListenerWD - After find elementBy.name: email
+13:56:01.593  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[position()=2]
+13:56:01.621  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+13:56:02.284  INFO  manager.ListenerWD - Before find elementBy.xpath: //button[@name='login']
+13:56:02.307  INFO  manager.ListenerWD - After find elementBy.xpath: //button[@name='login']
+13:56:02.383  INFO  tests.TestBase - Test start with data: Contacts(name=Melafifon488, lastName=Green, phone=0564882569, email=melG488@gmail.com, address=Netanya, description=All fields)
+13:56:02.384  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/add']
+13:56:03.410  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/add']
+13:56:03.459  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Name']
+13:56:03.497  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Name']
+13:56:03.640  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Last Name']
+13:56:03.666  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Last Name']
+13:56:03.796  INFO  manager.ListenerWD - Before find elementBy.cssSelector: input[placeholder='Phone']
+13:56:03.821  INFO  manager.ListenerWD - After find elementBy.cssSelector: input[placeholder='Phone']
+13:56:03.954  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='email']
+13:56:03.978  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='email']
+13:56:04.133  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='Address']
+13:56:04.189  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='Address']
+13:56:04.312  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[@placeholder='description']
+13:56:04.335  INFO  manager.ListenerWD - After find elementBy.xpath: //input[@placeholder='description']
+13:56:04.469  INFO  manager.ListenerWD - Before find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+13:56:04.492  INFO  manager.ListenerWD - After find elementBy.xpath: //div[@class='add_form__2rsm2']//button
+13:56:04.540  INFO  tests.TestBase - The name of starts method --->registrationSuccess
+13:56:04.541  INFO  manager.ListenerWD - Before find elementsBy.xpath: //button[text()='Sign Out']
+13:56:04.559  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+13:56:04.560  INFO  manager.ListenerWD - List size is-->1
+13:56:04.560  INFO  manager.ListenerWD - Before find elementBy.xpath: //button[text()='Sign Out']
+13:56:04.586  INFO  manager.ListenerWD - After find elementBy.xpath: //button[text()='Sign Out']
+13:56:04.643  INFO  manager.ListenerWD - Before find elementBy.xpath: //a[@href='/login']
+13:56:04.662  INFO  manager.ListenerWD - After find elementBy.xpath: //a[@href='/login']
+13:56:04.705  INFO  manager.ListenerWD - Before find elementBy.name: email
+13:56:04.721  INFO  manager.ListenerWD - After find elementBy.name: email
+13:56:04.869  INFO  manager.ListenerWD - Before find elementBy.xpath: //input[position()=2]
+13:56:04.891  INFO  manager.ListenerWD - After find elementBy.xpath: //input[position()=2]
+13:56:04.962  INFO  manager.ListenerWD - Have a 'problem'
+13:56:04.964  INFO  manager.ListenerWD - ***************************************
+13:56:04.965  INFO  manager.ListenerWD - Method methodclick
+13:56:04.965  INFO  manager.ListenerWD - ***************************************
+13:56:04.966  INFO  manager.ListenerWD - ***************************************
+13:56:04.968  INFO  manager.ListenerWD - InvocationTargetExceptionorg.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ecbf2d6f5425caf4855721420aead9a, clickElement {id=c1968411-e5b8-451f-8ed6-0d4392100beb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\ALEKSA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49617}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49617/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1ecbf2d6f5425caf4855721420aead9a)] -> xpath: //input[position()=2]]
+Session ID: 1ecbf2d6f5425caf4855721420aead9a
+13:56:04.969  INFO  manager.ListenerWD - ***************************************
+13:56:04.969  INFO  manager.ListenerWD - ***************************************
+13:56:04.969  INFO  manager.ListenerWD - Object target[[ChromeDriver: chrome on WINDOWS (1ecbf2d6f5425caf4855721420aead9a)] -> xpath: //input[position()=2]]
+13:56:04.969  INFO  manager.ListenerWD - ***************************************
